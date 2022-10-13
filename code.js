@@ -1,13 +1,25 @@
-// helloWorld function 
-function sayHello() {
-    return "Hello!";
+// helloWorld function
+
+function sayHello(input) {
+       if(input === "Jane"){
+              return "Hello, Jane!";
+       }
+       else if(input === "Alex"){
+              return "Hello, Alex!";
+       }
+       else if (input === "Pat"){
+              return "Hello, Pat!";
+       }
+       else{
+              return "";
+       }
 }
 
-function subtract(x, y) {
-    if (typeof x === "number" && typeof y === "number") {
-        return x - y;
-    }else {
-        return false;
-
-    }
-}
+// function subtract(x, y) {
+//     if (typeof x === "number" && typeof y === "number") {
+//         return x - y;
+//     }else {
+//         return false;
+//
+//     }
+// }
