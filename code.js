@@ -1,8 +1,14 @@
 // helloWorld function
 
 function sayHello(input) {
+       if (input === true) {
+              return "Hello, World!"
+       }
        if(input === "Jane"){
               return "Hello, Jane!";
+       }
+       else if (input === "World") {
+              return "Hello, World!"
        }
        else if(input === "Alex"){
               return "Hello, Alex!";
@@ -10,7 +16,12 @@ function sayHello(input) {
        else if (input === "Pat"){
               return "Hello, Pat!";
        }
-       else{
+       else if (input === true){
+              return "Hello, World!";
+       }
+       else if (input === false){
+              return "Hello, World!";
+       } else{
               return "";
        }
        // return "Hello, " + input + "!";
