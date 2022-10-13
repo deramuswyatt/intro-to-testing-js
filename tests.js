@@ -28,7 +28,7 @@ describe('sayHello', function() {
     //   expect(sayHello()).not.toBe(undefined);
     // });
 });
-expect(sayHello(true)).toBe("Hello, World!")
+
 // describe("subtract", function(){
 //     it("should be a defined function", function(){
 //        expect(typeof subtract).toBe ("function");
